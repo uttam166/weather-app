@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/weather.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>{{title}}</title>
+</head>
+<body>
+
+    <div class="main-content">
+        {{>nav}}
+
+        <p>Use this site to get your weather!</p>
+        <form>
+            <input type="text">
+            <button>search</button>
+        </form>
+        <p id="place_name"></p>
+        <p id="description"></p>
+        <p id="temp"></p>
+        <p id="feels_like"></p>
+        <p id="wind"></p>
+        <p id="humidity"></p>
+        <p id="UVIndex"></p>
+    </div>
+    
+
+    {{>footer}}
+    <script src="/js/script.js"></script>
+</body>
+</html>

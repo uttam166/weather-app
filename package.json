@@ -1,0 +1,19 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "nodemon": "nodemon src/app.js -e js,hbs"
+  },
+  "author": "uttam",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "hbs": "^4.0.1",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.0"
+  }
+}
